@@ -101,10 +101,10 @@ namespace MicroKnights.IO.Streams
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing && IsFinised == false )
-            {
-                throw new ObjectDisposedException("Stream not read to end");
-            }
+            // if (disposing && IsFinised == false )
+            // {
+            //     throw new ObjectDisposedException("Stream not read to end");
+            // }
             base.Dispose(disposing);
         }
 
